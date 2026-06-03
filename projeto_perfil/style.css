@@ -1,0 +1,18 @@
+#Perfil {
+    color: blue;
+}
+span{
+    color: #D3AF37;
+}
+small{
+    color: grey;
+}
+.one{
+    color: rgb(3, 3, 116);
+    font-size: 22px;
+}
+.two{
+    color: rgb(3, 3, 116);
+    font-size: 20px;
+    font-weight: 600;
+}
