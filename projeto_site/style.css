@@ -1,0 +1,21 @@
+header{
+    background-color: blue;
+    color: white;
+}
+
+span{
+    color: rgb(0, 211, 211);
+}
+
+main{
+    background-color: white;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+}
+
+body{
+    background-color: #E3F2FD;
+}

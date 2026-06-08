@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(0, 0, 255);
+}
+#title{
+    color: mediumturquoise;
+}
+#blue{
+    background-color: rgb(97, 145, 247);
+    padding: 30px;
+
+}
+#green{
+    margin: 30px;
+    background-color: greenyellow;
+}
+#orange{
+    background-color: orange;
+    margin: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,25 @@
+.card{
+    background-color: grey;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 30px;
+    object-fit: contain;
+    height: 400px;
+    width: 300px;
+}
+h1{
+    color: cyan;
+}
+span{
+    color: cyan;
+}
+p{
+    color: white;
+}
+
+img{
+    height: 120px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}

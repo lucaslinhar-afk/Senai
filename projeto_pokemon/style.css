@@ -1,0 +1,41 @@
+body{
+    place-items: center;
+    background-color: rgb(194, 194, 194);
+}
+.card{
+    background-color: rgb(255, 208, 0);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    object-fit: contain;
+    height: 400px;
+    width: 300px;
+    box-shadow: -8px 6px 15px ;
+}
+img{
+    height: 170px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+#pika{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+}
+.entry{
+    background-color: rgb(255, 255, 89);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 4px;
+    border: 2px solid rgb(241, 198, 5);
+    
+}
+p{
+    line-height: 1.5;
+    margin: 10px;
+}
+small{
+    color: gray
+    
+}
