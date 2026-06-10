@@ -1,0 +1,119 @@
+h1{
+    text-align: center;
+}
+button{
+    width: 150px;
+    margin: 10px;
+    padding: 12px;
+    font-size: 16px;
+    transition: 250ms;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.one{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.one:hover{
+    color: white;
+    background-color: black;
+}
+.two{
+    color: black;
+    background-color: #80E8FF;
+    border-radius: 30px;
+    border: #80E8FF;
+}
+.two:hover{
+    color: black;
+    background-color: #9EEDFF;
+}
+.third{
+    color: black;
+    background-color: #41FF6A;
+    border-radius: 15px;
+    border: #41FF6A;
+}
+.third:hover{
+    color: black;
+    background-color: #8BFFA4;
+}
+.four{
+    color: white;
+    background-color: #FF00C8;
+    border: 1px solid #FF00C8;
+    border-radius: 5px;
+}
+.four:hover{
+    color: #FF00C8;
+    background-color: white;
+    border: 1px solid #FF00C8;
+}
+.five{
+    color: #FF0000;
+    background-color: white;
+    border: 1px solid #FF0000;
+    border-radius: 25px;
+}
+.five:hover{
+    color: white;
+    background-color: #FF0000;
+}
+.six{
+    color: black;
+    font-weight: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 1px;
+}
+.six:hover{
+    color: white;
+    background-color: #525252;
+    box-shadow: 1px 4px 1px;
+}
+.seven{
+    color: black;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 2px ;
+}
+.seven:hover{
+    color: grey;
+    background-color: white;
+}
+.eight{
+    color: black;
+    background-color: #FAC02C;
+    border-radius: 10px;
+    box-shadow: -2px 0px #FAC02C;
+}
+.eight:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid #FAC02C;
+}
+.nine{
+    color: #005810;
+    background-color: #15FF00;
+    border-radius: 30px 00px;
+    font-weight: bold;
+    border: 1px solid #005810;
+}
+.nine:hover{
+    color: #15FF00;
+    background-color: #005810;
+}
+.ten{
+    color: #640069;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px dashed #640069;
+    font-weight: bold;
+}
+.ten:hover{
+    color: white;
+    background-color: #640069;
+}

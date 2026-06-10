@@ -1,0 +1,68 @@
+body{
+    background-color: #1B1C38;
+}
+h1{
+    color: cyan;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+div{
+    border: 2px solid white;
+    
+}
+#repeat{
+    height: 200px;
+    width: 400px;
+    background-image: url("aura1.jpg");
+    background-size: 30px 30px;
+    background-repeat: repeat;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+ 
+}
+#topleft{
+    height: 200px;
+    width: 400px;
+    background-image: url("aura2.jpg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#center{
+    height: 200px;
+    width: 400px;
+    background-image: url("aura3.jpg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#full{
+    height: 200px;
+    width: 400px;
+    background-image: url("aura4.jpg");
+    background-size: 400px 200px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#low{
+    height: 200px;
+    width: 400px;
+    background-image: url("aura5.jpg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
