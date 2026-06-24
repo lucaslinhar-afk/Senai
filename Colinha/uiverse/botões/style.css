@@ -1,0 +1,110 @@
+body{
+    background-color: gray;
+}
+.container{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/*botão hover 1*/
+.buttom {
+  position: relative;
+  overflow: hidden;
+  height: 40px;
+  width: 14%;
+  background: rgb(71, 71, 71);
+  background-size: 400%;
+  border-radius: 5%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.buttom:hover::before {
+  transform: scaleX(1);
+}
+
+.buttom-content {
+  position: relative;
+  z-index: 1;
+}
+
+.buttom::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(1, 167, 10) 10.8%,
+    rgb(109, 250, 116) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+
+
+
+
+
+
+.Btn {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+
+.svgIcon {
+  width: 16px;
+}
+
+.svgIcon path {
+  fill: rgb(255, 255, 255);
+}
+
+.Btn::before {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  left: -100%;
+  top: 0;
+  transition-duration: .3s;
+  mix-blend-mode: difference;
+}
+
+.Btn:hover::before {
+  transition-duration: .3s;
+  transform: translate(100%,-50%);
+  border-radius: 0;
+}
+
+
+
+
+
