@@ -1,10 +1,13 @@
-//=== Lucas A. Linhar - 06/07/2026 ===
+/* ==== Lucas Antonio Linhar ==== 
+   ==== 06/07 ====
+   ==== Aura ====
+   ==== 67 ====
+*/
+
 let nome = "Lucas"
 let idade = 16
-let hobby = "Farmar Aura"
-const cidadenatal = "Florianopólis"
-const profissao = "Policial"
+let hobby = "Farmar aura"
+const profissao ="programador"
+const cidade = "Florianópolis"
 
-
-
-console.log("não deu tempo")
+console.log(`Meu nome é ${nome},tenho ${idade} anos, meu hobby é ${hobby} eu nasci em ${cidade} e meu sonho é ser ${profissao}`)
