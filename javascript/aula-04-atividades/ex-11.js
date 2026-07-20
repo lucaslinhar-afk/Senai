@@ -1,6 +1,6 @@
 let filme = {
     titulo: "A historia do pombo guloso",
-    diretor: "cuzinho do luis",
+    diretor: "pomboguloso",
     ano: 6767,
     genero: "pombistico"
 }
